@@ -2,10 +2,10 @@ import { render } from "@testing-library/react";
 import {FrontCover  } from "./style";
 export function Front(){
     return(
-        <FrontCover>
+    <FrontCover>
         <div className="Text">
             <div className="subtitle">
-                 <h6>Marcos Paulo Machado Azevedo</h6>
+                 <h4>Marcos Paulo Machado Azevedo</h4>
             </div>
             <div className="titleFront">
                 <h1>Desenvolvedor <span className="violet"> Web </span></h1>

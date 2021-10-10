@@ -22,6 +22,16 @@ export const GlobalStyle = createGlobalStyle`
 export const Header = styled.header`
     width: 100%;
     background-color: transparent;
-    padding: 20px 150px 40px 150px;
+    padding: 20px 80px 40px 80px;
     color: var(--black)
 `;
+
+export const Logo = styled.div`
+    display: inline-block;
+    width: 80%;    
+`
+export const MenuIcon = styled.div`
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+`

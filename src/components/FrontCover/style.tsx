@@ -8,7 +8,7 @@ export const FrontCover = styled.div`
     .Text{
         display: inline-block;
         width: 50%;        //background-color: black;
-        padding: 150px 0px 60px 150px;
+        padding: 300px 0px 60px 150px;
         color: var(--black);
        // border-radius: 0 22px 22px 0;
         opacity: 0.8;
@@ -32,12 +32,13 @@ export const FrontCover = styled.div`
             button{
                 width: 180px;
                 padding: 10px;
+                height: 50px;
                 background-color: var(--violet);
                 border-radius: 22px;
                 border: 0;
                 color: white;
                 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                font-size: 17px;
+                font-size: 25px;
                 cursor: pointer;
                 
             }
@@ -54,9 +55,10 @@ export const FrontCover = styled.div`
         }
     }
     .img{
-        width: 500px;
-        height: 650px;
+        width: 700px;
+        height: 1000px;
         display: inline-block;
+        psition: absolute;
         float: right;
         padding: 0px 200px 0px 90px;
         background-image: url(${foto});

@@ -1,16 +1,16 @@
 import { render } from "@testing-library/react";
-import {GlobalStyle,  Header  } from "./styled";
+import {GlobalStyle,  Header, Logo, MenuIcon   } from "./styled";
 export function MyHeader(){
     return(
         <div className="App">
             <GlobalStyle />
             <Header>
-                <div className="title">
-                <h2 >Logo</h2>  
-                </div>
-                <div className="menu">
-                <h3 >Menu</h3>    
-                </div > 
+                <Logo>
+                  <h2 >Logo</h2>  
+                </Logo>
+                <MenuIcon>
+                 <h3 >Menu</h3>    
+                </MenuIcon>
             </Header>
         </div>
     );
