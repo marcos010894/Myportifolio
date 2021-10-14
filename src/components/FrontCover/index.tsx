@@ -1,5 +1,6 @@
 import { render } from "@testing-library/react";
 import {FrontCover  } from "./style";
+import foto from '../../assets/img/foto.svg';
 export function Front(){
     return(
     <FrontCover>
@@ -16,6 +17,7 @@ export function Front(){
             </div>
         </div>
         <div className="img">
+            <img className="myphoto" src={foto} />
         </div>
     </FrontCover>
     );

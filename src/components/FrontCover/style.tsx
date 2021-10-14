@@ -1,46 +1,70 @@
-import styled, { createGlobalStyle } from 'styled-components';
-import { GlobalStyleComponent } from 'styled-components';
-import foto from '../../assets/img/foto.svg'
+import styled from 'styled-components';
 
 
 export const FrontCover = styled.div`
-    width: 100%;
+    display:flex;
+    max-width:80%;
+    margin:auto;
+    @media(max-width: 800px) {
+        flex-direction: column-reverse;
+        text-align:center;
+        max-width:90%;
+      }
     .Text{
-        display: inline-block;
-        width: 50%;        //background-color: black;
-        padding: 300px 0px 60px 150px;
+        width: 60%; 
+        padding: 150px 0px 0px 0px;
         color: var(--black);
-       // border-radius: 0 22px 22px 0;
         opacity: 0.8;
         border-bottom: 3px solid var(--violet);
+        @media(max-width: 800px) {
+            width: 100%; 
+            padding: 10px 0px 10px 0px;
+            text-align:center;
+          }
+          
        
         .titleFront{
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-           
             font-size: 32px;
+            @media(max-width: 800px) {
+                font-size: 14px;
+                color:white;
+            }
+            @media(max-width: 500px) {                
+                color: black;
+            }
         }
         .subtitle{
-            font-family: Racing Sans One;
-            font-size: 25px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            @media(max-width: 800px) {
+                color:white;
+            }
+            @media(max-width: 500px) {                
+                color: black;
+            }
         }
         .violet{
             color: var(--violet);
+            @media(max-width: 800px) {
+                color:white;
+            }
+            @media(max-width: 500px) {                
+                color: var(--violet);
+            }
+            
+
         }
         .btn{
-            margin-top: 55px;
-
+            margin-top: 10px;
             button{
-                width: 180px;
+                width: 150px;
                 padding: 10px;
-                height: 50px;
                 background-color: var(--violet);
                 border-radius: 22px;
                 border: 0;
                 color: white;
                 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                font-size: 25px;
-                cursor: pointer;
-                
+                cursor: pointer;                
             }
             button:hover{
                 width: 180px;
@@ -55,13 +79,18 @@ export const FrontCover = styled.div`
         }
     }
     .img{
-        width: 700px;
-        height: 1000px;
-        display: inline-block;
-        psition: absolute;
-        float: right;
-        padding: 0px 200px 0px 90px;
-        background-image: url(${foto});
-        background-size: cover;       
+        width: 100vh;
+        height: 70vh;
+        text-align: right;
+        @media(max-width: 800px) {
+            width: 100%; 
+          }        
+
+    }
+    .myphoto{
+        width:70%;
+        @media(max-width: 800px) {
+            width: 100%; 
+          }     
     }
 `;
