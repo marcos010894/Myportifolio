@@ -32,7 +32,7 @@ export const Logo = styled.div`
 
 `
 export const MenuIcon = styled.div`
-    padding-left: 80%;
+    padding-left: 90%;
     text-align: right;
     @media(max-width: 800px) {
         padding-left: 70%;

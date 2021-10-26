@@ -18,12 +18,12 @@ export const FrontCover = styled.div`
         border-bottom: 3px solid var(--violet);
         @media(max-width: 800px) {
             width: 100%; 
-            padding: 10px 0px 10px 0px;
+            padding: 15px 0px 10px 0px;
             text-align:center;
-          }
+        }
           
        
-        .titleFront{
+        .titleFront {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             font-size: 32px;
             @media(max-width: 800px) {
