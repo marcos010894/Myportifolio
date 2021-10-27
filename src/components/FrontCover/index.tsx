@@ -17,7 +17,7 @@ export function Front(){
             </div>
         </div>
         <div className="img">
-            <img className="myphoto" src={foto} />
+            <img className="myphoto teste" src={foto} />
         </div>
     </FrontCover>
     );

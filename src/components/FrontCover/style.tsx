@@ -34,8 +34,7 @@ export const FrontCover = styled.div`
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
         .violet{
-            color: var(--violet);
-            
+            color: var(--violet);           
 
         }
         .btn{
