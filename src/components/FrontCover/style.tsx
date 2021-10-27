@@ -5,52 +5,36 @@ export const FrontCover = styled.div`
     display:flex;
     max-width:80%;
     margin:auto;
-    @media(max-width: 800px) {
+    margin-bottom: 150px;
+    @media(max-width: 1135px) {
         flex-direction: column-reverse;
         text-align:center;
         max-width:90%;
       }
     .Text{
-        width: 60%; 
+        width: 70%; 
         padding: 150px 0px 0px 0px;
         color: var(--black);
         opacity: 0.8;
+        flex: 1;
         border-bottom: 3px solid var(--violet);
-        @media(max-width: 800px) {
+        @media(max-width: 1135px) {
             width: 100%; 
             padding: 15px 0px 10px 0px;
             text-align:center;
         }
-          
-       
         .titleFront {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             font-size: 32px;
-            @media(max-width: 800px) {
+            @media(max-width: 1135px) {
                 font-size: 14px;
-                color:white;
-            }
-            @media(max-width: 500px) {                
-                color: black;
             }
         }
         .subtitle{
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            @media(max-width: 800px) {
-                color:white;
-            }
-            @media(max-width: 500px) {                
-                color: black;
-            }
         }
         .violet{
             color: var(--violet);
-            @media(max-width: 800px) {
-                color:white;
-            }
-            @media(max-width: 500px) {                
-                color: var(--violet);
-            }
             
 
         }
@@ -82,14 +66,15 @@ export const FrontCover = styled.div`
         width: 100vh;
         height: 70vh;
         text-align: right;
-        @media(max-width: 800px) {
+        @media(max-width: 1135px) {
             width: 100%; 
           }        
 
+        flex: 1;
     }
     .myphoto{
         width:70%;
-        @media(max-width: 800px) {
+        @media(max-width: 1135px) {
             width: 100%; 
           }     
     }
