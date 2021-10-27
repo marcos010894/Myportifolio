@@ -1,4 +1,3 @@
-import { render } from "@testing-library/react";
 import {GlobalStyle,  Header, Logo, MenuIcon   } from "./styled";
 export function MyHeader(){
     return(

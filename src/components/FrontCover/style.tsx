@@ -47,17 +47,13 @@ export const FrontCover = styled.div`
                 border: 0;
                 color: white;
                 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                cursor: pointer;                
+                cursor: pointer;
+                transition: 0.8s;
             }
             button:hover{
-                width: 180px;
-                padding: 10px;
                 background-color: var(--white);
-                border-radius: 22px;
                 border: 1px solid var(--violet);
                 color: var(--violet);
-                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                font-size: 17px;
             }
         }
     }

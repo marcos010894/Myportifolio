@@ -1,4 +1,3 @@
-import { render } from "@testing-library/react";
 import {FrontCover  } from "./style";
 import foto from '../../assets/img/foto.svg';
 export function Front(){
